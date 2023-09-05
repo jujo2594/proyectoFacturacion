@@ -1,0 +1,97 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+main{
+    width: 100vw;
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 5vw;
+}
+
+.open-form{
+    width: 15vw;
+    height: 3vw;
+    border-radius: 1vw;
+    background-color: #3A86FF;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-size: 1.3vw;
+    margin-bottom: 2.5vw;
+}
+
+.open-form:hover{
+    background-color: #FFF;
+    color: #3A86FF;
+    border: 1px solid #3A86FF;
+    cursor: pointer;
+    transition: 0.3s ease, 0.3s ease;
+}
+
+.main-table{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.tags{
+    font-size: 1.5vw;
+    border-collapse: collapse;
+    border: 1px solid black;
+    height: 4vw;
+    background-color: #e5e5e5;
+}
+
+.purchase-info{
+    font-size: 1vw;
+    color: #696D7D;
+    height: 3.5VW;
+}
+
+.delete-buttom{
+    padding-top: 0.5vw;
+    background-color:#e5e5e5;
+    width: 3vw;
+    cursor: pointer;
+    border-radius: 3vw;
+}
+
+.add-buttom{
+    padding-top: 0.35vw;
+    background-color: #e5e5e5;
+    width: 3vw;
+    cursor: pointer;
+    border-radius: 3vw;
+}
+
+.delete-buttom:hover{
+    background-color: red;
+    transition: 0.3s ease, 0.3s ease;
+}
+
+.add-buttom:hover{
+    background-color: #72B01D;
+    transition: 0.3s ease, 0.3s ease;
+}
+
+#name-products{
+    font-size: 1vw;
+    width: 10vw;
+    text-align: center;
+    height: 2vw;
+    border: 1px black solid;
+    border-radius: 1vw;
+    color:#696D7D;
+}
+
+
+
